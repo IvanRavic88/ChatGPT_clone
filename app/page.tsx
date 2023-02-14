@@ -3,6 +3,7 @@ import {
   ExclamationTriangleIcon,
   SunIcon,
 } from "@heroicons/react/24/outline";
+
 function HomePage() {
   return (
     <div className="text-white flex flex-col items-center justify-center h-screen px-2">
