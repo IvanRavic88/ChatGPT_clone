@@ -19,7 +19,7 @@ function ChatRow({ id }: Props) {
 
   const [messages] = useCollection(
     query(
-      collection(db, "users", session?.user?.email!, "chat", id, "messages")
+      collection(db, "users", session?.user?.email!, "chats", id, "messages")
     )
   );
 
